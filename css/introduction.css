@@ -1,0 +1,61 @@
+.introduction {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(0deg, #f5f5f500 0%, #303443 100%);
+    background-attachment: fixed;
+}
+.background {
+    background-attachment: fixed;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.profile {
+    width: 26%;
+    margin-right: 20%;
+}
+.profile p {
+    text-shadow: 0px 0px 4px black;
+}
+.profile__picture {
+    content: url(../img/profile-picture.jpg);
+    border-radius: 999px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 32px;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto 10px auto;
+}
+.profile__big-description {
+    font-size: 1.8rem;
+    margin-bottom: 4px;
+}
+.profile__small-description {
+    font-size: 1.4rem;
+    font-family: var(--fonte2);
+    margin-bottom: 1rem;
+}
+.profile__text {
+    font-size: 1.1rem;
+}
+.introduction .name {
+    font-size: 4rem;
+    text-shadow: 0px 0px 8px black;
+    box-shadow: 0 4px 2px -2px #FFF;
+}
+.scroll-down {
+    --scroll-down-size:100px ;
+    position: absolute;
+    content: url(../img/scroll-down.png);
+    width: var(--scroll-down-size);
+    height: var(--scroll-down-size);
+    bottom: 0;
+    left: calc(50vw - ( 100px / 2));
+    margin-bottom: 4vh;
+}

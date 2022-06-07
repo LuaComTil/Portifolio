@@ -1,0 +1,16 @@
+.projects {
+    background-color: #181818;
+}
+.projects__title {
+    padding-bottom: 0px;
+}
+.projects__description {
+    color: #afafaf;
+    text-align: center;
+}
+.projects__grid {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

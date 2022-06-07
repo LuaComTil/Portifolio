@@ -1,0 +1,62 @@
+.project {
+    align-items: center;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px;
+    min-height: 380px;
+    width: 20%;
+    margin: 1rem;
+    box-shadow: #FFF 0 0 8px;
+    border-radius: 16px;
+}
+.project__display {
+    box-shadow: black 0 0 12px;
+    cursor: pointer;
+    margin-top: 0.44rem;
+    height: 160px;
+    width: 320px;
+    border-radius: 4px;
+}
+.project__name {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+}
+.project__description {
+    margin-top: 0.44rem;
+}
+.project__buttons {
+    margin-bottom: 2rem;
+}
+.project__button {
+    background-color: #373737;
+    border: solid 1px #494949;
+    border-radius:8px;
+    color: #FFF;
+    padding: 0.5rem 2rem;
+    margin-top: 0.6rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.project__button:hover {
+    box-shadow: #FFF 0 0 6px;
+    transition: 0.5s;
+}
+/*      INSERT PROJECTS   */
+.project__image1 {
+    content: url(../../img/project1.png);
+}
+.project__image1:hover {
+    content: url(../../img/project1.gif);
+}
+.project__image2 {
+    content: url(../../img/project2.png);
+}
+.project__image2:hover {
+    content: url(../../img/project2.gif);
+}
+.project__image3 {
+    content: url(../../img/project3.png);
+}

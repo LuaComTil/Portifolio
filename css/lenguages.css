@@ -1,0 +1,28 @@
+.lenguages span {
+    align-items: center;
+    background: #3d3d3d;
+    border: solid 1px black;
+    box-shadow: black 0 0 16px;
+    padding: 0.6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+.img-html-css-js {
+    content: url(img/html_css_js.png);
+    height: 100px;
+    width: 100px;
+}
+.unity-csharp {
+    content: url(img/unity-csharp.png);
+    height: 100px;
+    width: 100px;
+}
+.lenguage {
+    margin: 0 0.4rem;
+    margin-right: 2rem;
+}
+.lenguages__title {
+    color: black;
+}
