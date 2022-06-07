@@ -48,6 +48,8 @@
     font-size: 4rem;
     text-shadow: 0px 0px 8px black;
     box-shadow: 0 4px 2px -2px #FFF;
+    text-decoration: none;
+    color: #FFF;
 }
 .scroll-down {
     --scroll-down-size:100px ;
