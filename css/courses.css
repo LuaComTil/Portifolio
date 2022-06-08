@@ -45,18 +45,23 @@
     display: flex;
     flex-direction: column;
 }
+.formacoes-list {
+    margin-left: 10%;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.formacao--js {
+}
+.formacao--html-css {
+}
+
+
 .formacoes-info {
     margin-right: 10%;
     overflow: auto;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
 }
-.formacoes-list {
-    margin-left: 10%;
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 6px;
-}
-
 .formacoes-info__course {
     background: rgb(33,33,33);
     background: linear-gradient(45deg, rgba(33,33,33,1) 0%, rgba(62,62,62,1) 100%);
@@ -75,12 +80,22 @@
     color: #FFF;
     border: #FFF solid 1px;
 }
+.formacao {
+    background: rgb(39,39,39);
+    background: linear-gradient(45deg, rgba(39,39,39,1) 0%, rgba(61,61,61,1) 100%);
+}
+#group-js .formacoes-info__course {
+    background: rgb(33,33,33);
+    background: linear-gradient(45deg, rgba(33,33,33,1) 0%, rgba(247,223,30,0.33) 100%);
+}
+#group-html-css .formacoes-info__course {
+    background: var(--htmlcolor);
+    background: linear-gradient(45deg, rgba(240,101,41,0.33) 0%, rgba(41,101,241,0.33) 100%);
+}
 #group-js .formacoes-info__course .formacoes-info__course__certificate {
-    color: #f7df1e;
-    border: solid #f7df1e 1px;
-    box-shadow: inset #f7df1e 0px 0px 2px;
+    border: solid var(--jscolor) 1px;
+    box-shadow: inset var(--jscolor) 0px 0px 2px;
 }#group-html-css .formacoes-info__course .formacoes-info__course__certificate {
-    color: #2965f1;
-    border: solid #2965f1 1px;
-    box-shadow: inset #2965f1 0px 0px 2px;/*HTML COLOR #f06529, CSS COLOR #2965f1*/
+    border: solid var(--htmlcolor) 1px;
+    box-shadow: inset var(--htmlcolor) 0px 0px 2px;
 }

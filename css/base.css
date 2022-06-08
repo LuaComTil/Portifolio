@@ -4,6 +4,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     --fonte1: 'Poppins', sans-serif;
     --fonte2: 'Nanum Gothic', sans-serif;
     --fonte3: 'Baloo 2', cursive;
+    --htmlcolor: #f06529;
+    --csscolor: #2965f1;
+    --jscolor: #f7df1e;
 }
 ::-webkit-scrollbar {
   width: 10px;
