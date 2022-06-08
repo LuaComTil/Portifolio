@@ -27,11 +27,12 @@
 .project__name {
     text-align: center;
     margin-top: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 16px;
 }
 .project__description {
-    margin-top: 0.44rem;
+    margin-top: 16px;
     padding: 0 1rem;
+    line-height: 20px;
 }
 .project__buttons {
     margin-bottom: 0.8rem;
