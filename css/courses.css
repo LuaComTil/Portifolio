@@ -50,9 +50,8 @@
     border-bottom-left-radius: 6px;
     border-top-left-radius: 6px;
 }
-.formacao--js {
-}
-.formacao--html-css {
+.formacoes__name {
+    font-size: 1.2rem;
 }
 
 
