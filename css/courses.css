@@ -32,8 +32,8 @@
 }
 .courses__grid {
     display: flex;
-    display: row;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
 }
 .formacoes {
     width: 500px;
@@ -46,9 +46,9 @@
     flex-direction: column;
 }
 .formacoes-list {
-    margin-left: 10%;
     border-bottom-left-radius: 6px;
     border-top-left-radius: 6px;
+    margin-right: 2.5%;
 }
 .formacoes__name {
     font-size: 1.2rem;
@@ -56,7 +56,6 @@
 
 
 .formacoes-info {
-    margin-right: 10%;
     overflow: auto;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
