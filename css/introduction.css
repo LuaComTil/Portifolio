@@ -36,16 +36,16 @@
     margin: 0 auto 10px auto;
 }
 .profile__big-description {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 4px;
 }
 .profile__small-description {
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--fonte2);
     margin-bottom: 1rem;
 }
 .profile__text {
-    font-size: 16px;
+    font-size: 12px;
 }
 .introduction .name {
     font-size: 48px;
